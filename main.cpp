@@ -2,9 +2,8 @@
 using namespace std;
 
 #define fio ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
-#define endl
-#define incr_loop(a, n) for (i = a; i < n; i++)
-#define decr_loop(a, b) for (i = a; i > b; i--)
+#define incr_loop(a, n) for (int i = a; i < n; i++)
+#define decr_loop(a, b) for (int i = a; i > b; i--)
 #define nested_incr_loop(a, b) for (int j = a; j < b; j++)
 #define nested_decr_loop(a, b) for (int j = b; j > a; --j)
 typedef long long ll;
@@ -48,7 +47,7 @@ int main() {
     // cin >> t;
     while(t--) {
         solve();
-        cout << endl;
+        cout <<endl;
     }    
 }
 
